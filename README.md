@@ -1,8 +1,8 @@
 # Endee.io
-RAG-based Chat with PDF
+# RAG-based Chat with PDF
 This project enables conversational interaction with PDF documents using the Retrieval-Augmented Generation (RAG) model. Users can ask questions related to the content of uploaded PDF files, and the system will provide detailed responses using RAG-based conversation generation techniques.
 
-Features
+# Features
 PDF Upload: Users can upload one or multiple PDF files containing the information they want to inquire about.
 
 Text Extraction: Extracts text content from uploaded PDF files for processing and analysis.
@@ -13,7 +13,7 @@ Vector Store Creation: Utilizes FAISS to create a vector store from the text chu
 
 Conversational Interface: Utilizes the RAG model to generate responses to user queries in a conversational manner.
 
-Tech Stack
+# Tech Stack
 Python: Programming language used for development.
 Streamlit: Web application framework for building interactive web applications.
 PyPDF2: Python library for reading PDF files.
@@ -23,27 +23,15 @@ Anthropic: API for claude-3-sonnet-20240229 LLM.
 Installation
 To run this project locally, follow these steps:
 
-Clone the repository:
-git clone https://github.com/sagnik-datta-02/ChatwithPDF.git
-Install the required dependencies:
-pip install -r requirements.txt
-Set up environment variables:
 
-Ensure you have an Anthropic API key and set it in your environment variables as ANTHROPIC_API_KEY.
-
-Make sure to have a .env file containing your environment variables, including the Anthropic API key.
-
-Run the Streamlit app:
-
-streamlit run multipdfragapp.py
-Usage
+# Usage
 Upload PDF files containing the information you want to inquire about.
 Click on "Submit & Process" to process the uploaded PDF files.
 Ask a question related to the content of the uploaded PDF files in the text input field and receive a response to your question.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgements
+# Acknowledgements
 Streamlit
 PyPDF2
 langchain
