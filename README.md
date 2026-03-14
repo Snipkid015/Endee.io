@@ -33,8 +33,13 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 # Acknowledgements
 Streamlit
+
 PyPDF2
+
 langchain
+
 FAISS
+
 Anthropic
+
 dotenv
